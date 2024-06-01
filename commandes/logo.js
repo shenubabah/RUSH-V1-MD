@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "DEXTER LOGO");
+        repondre("*__Exemple : * " + prefixe + "RUSH LOGO");
         return;
     }
     try {
@@ -14,8 +14,8 @@ zokou({ nomCom: "hacker",
        // let res = Object.values(anu)[3];
         // console.log("&€"+res);
       //  let lien = "https://e1.yotools.net" + res;
-        repondre("*⚡ *ʟᴏᴀᴅɪɴɢ ᴅᴇxᴛᴇʀ-ᴍᴅ* ⚡...*");
-        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "\t *Logo by DEXTER-MD*" }, { quoted: ms });
+        repondre("*⚡ *ʟᴏᴀᴅɪɴɢ RUSH-ᴍᴅ* ⚡...*");
+        await zk.sendMessage(origineMessage, { image: { url:anu.image}, caption: "\t *Logo by Rush-MD*" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -24,7 +24,7 @@ zokou({ nomCom: "hacker",
 zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
     try {
-        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball dexterKing`;
+        const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball rushKing`;
         //  if(arg=='') {await zok.sendMessage(dest,{text:noArgMsg},{quoted:infoMessage}); return;}
         if (arg == '' || !arg) {
             repondre(noArgMsg);
