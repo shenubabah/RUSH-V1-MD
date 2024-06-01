@@ -1,8 +1,8 @@
 {
-  "name":"DEXTER-V1-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "name":"RUSH-V1-MD",
+  "description":"An easy and simple WhatsApp bot developed by rush",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/57c3083b60b2bea6ec132.jpg",
+  "logo":"https://telegra.ph/file/cba60a28d9015165320c9.jpg",
   "repository":"https://github.com/DEXTER-BOT-1/DEXTER-V1-MD/",
   "succes_url":"/",
   "stack":"container",
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"DEXTER-V1-MD",
+      "value":"RUSH-V1-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"📌 Dont change ",
-      "value":"https://telegra.ph/file/e716c8220c20e3845f2cf.mp4",
+      "value":"https://telegra.ph/file/cba60a28d9015165320c9.jpg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required": false,
-    "value": "DEXTER"
+    "value": "RUSH"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required":false,
-    "value": "94789958225"
+    "value": "94762498519"
   },
     "WARN_COUNT":
   {
