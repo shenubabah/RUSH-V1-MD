@@ -33,7 +33,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭────✧RUSH-V1-MD✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
-│♨ *User* : ${s.OWNER_NAME}
+│♨ *User* : ${rush }
 │♨ *Mode* : ${mode}
 │♨ *Commands* : ${cm.length} 
 │♨ *Date* : ${date}
