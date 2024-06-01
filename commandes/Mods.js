@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "DEXTER-MD",
+            author: "RUSH-MD",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
