@@ -31,16 +31,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧RUSH-V1-MD✧────◆
+╭────✧𝗥𝗨𝗦𝗛-𝐌𝐃✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
-│♨ *User* : ${rush }
 │♨ *Mode* : ${mode}
 │♨ *Commands* : ${cm.length} 
 │♨ *Date* : ${date}
 │♨ *Time* : ${temps} 
 │♨ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │♨ *Platform* : ${os.platform()}
-│♨ *Developer* : rush
+│♨ *Developer* : 𝗥𝗨𝗦𝗛
 │♨ *Version* : 𝐯7.5.25
 ╰─────✧The-rush✧─────◆ \n\n`;
 
@@ -54,7 +53,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `*╭────💫* *${cat}* *💫⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *|♦️* ${cmd}`;
+ *|😍* ${cmd}`;
         }
         menuMsg += `
 *╰═════════════⊷* \n`
@@ -64,7 +63,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌rush©🐐²0²⁴*                                         
+  *😍RUSH🇱🇰²0²⁴*                                         
 *╰═════════════⊷*
 `;
 
@@ -82,7 +81,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌rush*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌Dexter*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
