@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐃𝐄𝐗𝐓𝐄𝐑-𝐌𝐃✧────◆
+╭────✧RUSH-V1-MD✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
 │♨ *User* : ${s.OWNER_NAME}
 │♨ *Mode* : ${mode}
@@ -40,18 +40,18 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Time* : ${temps} 
 │♨ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │♨ *Platform* : ${os.platform()}
-│♨ *Developer* : 𝐃𝐄𝐗𝐓𝐄𝐑
+│♨ *Developer* : rush
 │♨ *Version* : 𝐯7.5.25
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╰─────✧The-rush✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*DEXTER-MD COMMANDS :*
+*RUSH-V1-MD COMMANDS :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────💫* *${cat}* *💫⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *|♦️* ${cmd}`;
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌DEXTER©🐐²0²⁴*                                         
+  *📌rush©🐐²0²⁴*                                         
 *╰═════════════⊷*
 `;
 
@@ -82,7 +82,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌Dexter*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌rush*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
