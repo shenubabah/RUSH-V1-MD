@@ -3,12 +3,12 @@ const {getContentType}=require("@whiskeysockets/baileys")
 
 
 
-zokou({nomCom:"vv",categorie:"General",reaction:"😾"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"vv",categorie:"General",reaction:"🔋"},async(dest,zk,commandeOptions)=>{
 
 const {ms,msgRepondu,repondre}=commandeOptions;
 
 
-if(!msgRepondu){return repondre("*Mentionne කරන්න video or photo* .");}
+if(!msgRepondu){return repondre("*Mentionne කරන්න video or photo  🇱🇰 එවිට rush-md නිවැරදි කරයි* .");}
 
 
 if(msgRepondu.viewOnceMessageV2)
