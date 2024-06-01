@@ -35,7 +35,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
     const alivemsg = `
-*Owner* : ${s.OWNER_NAME}
+await   repondre("⚔ 𝗥𝗜𝗦𝗛 𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝗢𝗪𝗡𝗘𝗥 𝗥𝗨𝗦𝗛 ⚔");
 *Mode* : ${mode}
 *Date* : ${date}
 *Time* : ${temps}
@@ -74,7 +74,7 @@ else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
       await   repondre("⚔ 𝗥𝗜𝗦𝗛 𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝗢𝗪𝗡𝗘𝗥 𝗥𝗨𝗦𝗛 ⚔");
-         repondre(" *Support ravi and chaky ! cyber dexter")
+         repondre(" *create by rush sri lankan owner")
      }
  } else {
 
