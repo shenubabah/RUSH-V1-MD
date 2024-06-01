@@ -55,8 +55,8 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (de
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "📌 Dexter ", numero: "94789958225" },
-      { nom: "📌 dexter yt", numero: "https://youtube.com/@Dextertoola999" },
+      { nom: "📌 rush ", numero: "94762498519" },
+      { nom: "📌 rush yt", numero: "" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -91,11 +91,5 @@ else {
 }
 });
 
-zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
-  const { ms, repondre, auteurMessage, } = commandeOptions; 
- 
-  repondre("⚔ *DEXTER SHARE LINKN* ⚔")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94789958225`},{quoted :ms})
 
-})
 
